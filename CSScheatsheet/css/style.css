@@ -1,5 +1,5 @@
 body{
-    
+
     background-color: #f4f4f4;
     color: #555555;
 
@@ -10,5 +10,6 @@ body{
     /* Same as above */
     font: normal 16px arial,helvetica,sans-serif;
 
+    line-height: 1.6em;
 
 }
