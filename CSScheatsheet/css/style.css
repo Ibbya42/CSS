@@ -42,6 +42,13 @@ a:visited{
     margin: auto;
 }
 
+.button{
+    background-color: black;
+    color: red;
+    padding: 10px 15px;
+    border: none;
+}
+
 .box-1{
     background-color: black;
     color: #f4f4f4;
@@ -113,4 +120,28 @@ a:visited{
     padding-bottom: 6px;
     border-bottom: dotted 1px black;
     list-style-image: url('../images/checkmark.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type = "text"] , .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form input[type = "submit"]{
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+    border: none;
 }
