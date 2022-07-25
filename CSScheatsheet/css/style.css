@@ -34,7 +34,7 @@ a:active{
 }
 
 a:visited{
-    color: red;
+    color: black;
 }
 
 .container{
@@ -105,5 +105,12 @@ a:visited{
 
 .choices ul{
     padding: 0;
+    padding-left:20px;
     list-style: square;
+}
+
+.choices li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px black;
+    list-style-image: url('../images/checkmark.png');
 }
