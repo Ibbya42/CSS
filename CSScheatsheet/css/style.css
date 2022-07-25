@@ -21,8 +21,20 @@ body{
 }
 
 a{
-    text-decoration: none;
+    text-decoration:none;
     color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color: red;
 }
 
 .container{
@@ -93,5 +105,5 @@ a{
 
 .choices ul{
     padding: 0;
-    list-style: none;
+    list-style: square;
 }
