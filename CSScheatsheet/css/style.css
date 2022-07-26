@@ -20,6 +20,10 @@ body{
 
 }
 
+.clr{
+    clear: both;
+}
+
 a{
     text-decoration:none;
     color: black;
@@ -144,4 +148,18 @@ a:visited{
     color: black;
     padding: 10px 15px;
     border: none;
+}
+
+.my-form .button:hover{
+    color:red;
+    background-color: aliceblue;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing:border-box;
+
 }
