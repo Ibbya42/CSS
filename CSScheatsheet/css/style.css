@@ -163,3 +163,19 @@ a:visited{
     box-sizing:border-box;
 
 }
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #555555;
+    color: #f4f4f4;
+    padding: 15px;
+    box-sizing: border-box;
+}
