@@ -182,6 +182,9 @@ a:active{
     border: 1px solid black;
     margin-top: 30px;
     position: relative;
+    background-image: url(../images/footer1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center top;
 }
 
 .p-box h1{
