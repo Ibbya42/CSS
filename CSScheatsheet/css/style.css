@@ -26,7 +26,7 @@ body{
 
 a{
     text-decoration:none;
-    color: white;
+    color: black;
 }
 
 a:hover{
@@ -44,7 +44,7 @@ a:active{
 
 .button{
     background-color: orange;
-    color: white;
+    color: black;
     padding: 10px 15px;
     border: none;
 }
@@ -182,7 +182,7 @@ a:active{
     border: 1px solid black;
     margin-top: 30px;
     position: relative;
-    background-image: url(../images/footer1.jpg);
+    background-image: url(../images/footer2.jpg);
     background-repeat: no-repeat;
     background-position: center center top;
 }
