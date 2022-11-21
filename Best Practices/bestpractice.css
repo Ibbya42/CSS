@@ -1,0 +1,31 @@
+
+.container{
+    /* Styles the parents border */
+    border: 10px solid grey;
+    display: flex ;
+    justify-content: space-between;
+    /* Add spacing between the container */
+    padding: 24px;
+
+}
+
+.Big-box{
+
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+.small-boxes{
+    width: 70px;
+    height: 50px;
+    /* Add spacing between the small boxes */
+    margin-left: 24px;
+    border: 5px solid black;
+}
+
+/* Needed to create another parent div for the small boxes to adjust flex */
+.box-wrapper{
+    display: flex ;
+    align-items: center;
+}
