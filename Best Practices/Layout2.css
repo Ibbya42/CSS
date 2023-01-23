@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+
+    /* For the black border which is the container */
+    border: 4px solid black;
+    padding: 24px 24px 14px 24px;
+
+}
+
+.row{
+
+    /* Row will be used in between the container to add responsiveness  */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.title{
+    border: 2px solid grey;
+    width: 100%;
+    height: 24px;
+    /* Add spacing between the title and box div */
+    margin-bottom: 24px;
+    
+}
+
+.boxes{
+    border: 4px solid grey;
+    /* Divides the width by 3 so that the boxes can continue on a row below */
+    width: 30%;
+    height: 100px;
+    margin-bottom: 24px;
+}
+
+.box-wrapper{
+    display: flex;
+    /* Flex wrap: wrap allows the property to continue on another line when possible */
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    
+}
